@@ -1,0 +1,98 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.auth-buttons button {
+  margin-left: 1rem;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+.auth-buttons button:hover {
+  background-color: darkgray;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  margin: 20px;
+  width: 200px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ddd;
+  height: 75%;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: left;
+  height: 100px;
+}
+.sidebar button:hover {
+  background-color: darkgray;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.items {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Add space between items */
+}
+
+
+.item {
+  width: calc(33.33% - 1rem); /* Adjust width and subtract gap for proper layout */
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+}
+.item:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
+.item h3 {
+  text-align: left;
+}
+.item h5 {
+  text-align: left;
+}
+.item p {
+  text-align: left;
+}
+
+.item h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.item p {
+  margin: 0.5rem 0 0 0;
+}
